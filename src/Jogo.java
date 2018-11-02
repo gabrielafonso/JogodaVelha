@@ -55,7 +55,7 @@ public class Jogo {
 	    }
 	    
 	    public boolean Jogar(){
-	        if(ganhou() == 0 ){
+	        if(ganhador() == 0 ){
 	            System.out.println("----------------------");
 	            System.out.println("\nRodada "+rodada);
 	            System.out.println("É a vez do jogador " + vez() );
